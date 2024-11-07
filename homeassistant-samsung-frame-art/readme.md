@@ -1,3 +1,14 @@
+Current State:
+
+* Will now successfully push the art to the TV, but does not change the currently displayed image.
+
+Next steps:
+
+* Figure out how to change the current image
+* Add option for 'complete management' to erase all the images that have been uploaded, and have it only use images from HomeAssistant so it doesn't grow forever
+* Add option for selecting a subfolder from the frame folder to allow for specific 'themed' content.
+
+
 # Samsung Frame Art Add on for Home Assistant
 
 ![TV with some art on it ](https://i.imgur.com/BunHdwb.jpeg)
