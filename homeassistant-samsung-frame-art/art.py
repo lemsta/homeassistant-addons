@@ -4,6 +4,7 @@ import os
 import random
 import json
 import argparse
+import time
 
 sys.path.append('../')
 
@@ -99,6 +100,7 @@ if art_mode == True:
 						uploaded_files.append({'file': file, 'remote_filename': remote_filename})
 
 						if not args.upload_all:
+							time.sleep(5)
 							# Select the uploaded image using the remote file name
 							logging.info("Setting image to " + remote_filename)
 							tv.art().select_image(remote_filename, show=False)
